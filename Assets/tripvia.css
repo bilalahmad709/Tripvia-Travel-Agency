@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+
+.home-bg-img{
+    background: url('/Assets/images/bg-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    
+}
+@media screen and (min-width:1440px) and (max-width:2560px){
+    .home-bg-img{
+        height: 70vh;
+    }
+}
+@media screen and (min-width:320px) and (max-width:1440px){
+    .home-bg-img{
+        height: 80vh;
+    }
+}
+.nav-item .nav-link:hover{
+    font-weight: bolder;
+}
+.take-trip-btn{
+    color: rgb(9, 120, 185);
+}
+.take-trip-btn:hover{
+    font-weight: bold;
+}
+
+/* Social links */
+.social-link{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+.tripvia-span{
+    color: rgb(9, 120, 185);
+}
+
+.lightblack{
+    color: rgb(101, 99, 99);
+}
+
+/* second container */
+.visit-img{
+    width: 100%;
+    border-radius: 15px;
+    height: 250px;
+}
+
+/* images cards row */
+.Diverse-option-cards{
+    max-width: 300px;
+    min-width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 250px;
+}
+.culture-card{
+    background-image: url('/Assets/images/pexels-laura-paredis-1047081-26424643.jpg');
+}
+.adventure-card{
+    background-image: url('/Assets/images/adventure.jpg');
+}
+.luxery-card{
+    background-image: url('/Assets/images/pexels-eray-altay-2187659-3834331.jpg');
+}
+
+.family-card{
+    background-image: url('/Assets/images/Family-tour.jpg');
+}
+
+/* Footer */
+.footer{
+    background-color: rgb(54, 51, 51);
+}
+/* Footer end */
+
+/* ABOUT_FRANCE PAGE CSS START */
+
+.about-bg-img{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-color: black;
+}
+.about-bg-img::before {
+    content: "";
+    position: absolute;
+    background: url('/Assets/images/About-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+
+}
+
+@media screen and (min-width:1440px) and (max-width:2560px){
+    .about-bg-img{
+        height: 50vh;
+    }
+}
+
+.About-france-imgs{
+    width: 100%;
+    border-radius: 15px;
+    height: 250px;
+}
+.Top-cities{
+    max-width: 400px;
+    min-width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    min-height: 250px;
+    max-height: 300px;
+}
+.top-city1{
+    background-image: url('/Assets/images/top-city1.jpg');
+}
+.top-city2{
+    background-image: url('/Assets/images/top-city2.jpg');
+}
+.top-city3{
+    background-image: url('/Assets/images/top-city3.jpg');
+}
+.top-city4{
+    background-image: url('/Assets/images/top-city-4.jpg');
+}
+
+.Gallery-img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.Gallery-img-1{
+    min-height: 200px;
+    max-height: 300px;
+}
+
+/* ABOUT_FRANCE PAGE CSS END */
+
+/* About-Us Page CSS start */
+.about-us-bg-img{
+    background-image: url('/Assets/images/About-us-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+.about-span{
+    color: rgb(9, 120, 185);
+}
+.about-year-span{
+    left: 22px;
+    color: rgb(9, 120, 185);
+    position: relative;
+}
+.about-year-span::before{
+    content: "";
+    position: absolute;
+    background-color:  rgb(9, 120, 185);
+    top: 40%;
+    left: -20px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.about-year-span::after{
+    content: "";
+    position: absolute;
+    background-color:  rgb(9, 120, 185);
+    top: 50%;
+    left: 60px;
+    width: 200px;
+    height: 1px;
+    
+}
+@media screen and (min-width:992px) and (max-width:1230px){
+    .about-year-span::after{
+        width: 150px;
+    }
+}
+@media screen and (min-width:1700px) and (max-width:1950px){
+    .about-year-span::after{
+        width: 260px;
+    }
+}
+.about-video{
+    width: 100%;
+    min-height: 240px;
+    max-height: 300px;
+}
+
+.about-dest-morocco{
+    background-image: url('/Assets/images/marocco.jpg');
+    width: 100%;
+    min-height: 240px;
+    max-height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.morocco-span{
+    font-weight: 300;
+}
+.about-dest-greece{
+    background-image: url('/Assets/images/greece.jpg');
+    width: 100%;
+    min-height: 240px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.about-greece-clnder{
+    padding: 3px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+.expert-team{
+    min-width: 240px;
+    max-width: 280px;
+    min-height: 320px;
+    max-height: 350px;
+    background: #9ec6d3;
+    border-radius: 5px;
+  
+}
+.expert-team-img1{
+    background-image: url('/Assets/images/expert3.png');
+    background-position: center;
+    background-size: cover;
+}
+.expert-team1-p{
+    border-radius: 15px;
+    border: 1px solid rgb(211, 194, 194);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter:blur(20px)
+}
+.expert-team-img2{
+    background-image: url('/Assets/images/expert2.png');
+    background-position: center;
+    background-size: cover;
+}
+.expert-team-icons a i{
+    border: 1px solid rgb(215, 205, 205);
+    color: white;
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(10px);
+}
+
+.expert-team-img3{
+    background-image: url('/Assets/images/expert1.png');
+    background-position: center;
+    background-size: cover;
+}
+.expert-team-img4{
+    background-image: url('/Assets/images/expert4.png');
+    background-position: center;
+    background-size: cover;
+}
+.comment-div{
+    background-color: #cee5ed;
+    border-radius: 5px;    
+}
+.about-footer{
+    background-color: #0079A4;
+}
+/* About-Us Page CSS end */
+
+
+/* Destination Page CSS START */
+.destination-bg-img{
+    background-image: url('/Assets/images/destination-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+}
+
+.destinations{
+    min-width: 250px;
+    max-width: 300px;
+    min-height: 250px;
+    max-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.france{
+    background-image: url('/Assets/images/france.jpg');
+}
+.japan{
+    background-image: url('/Assets/images/japan.jpg');
+}
+.Australia{
+    background-image: url('/Assets/images/australia.jpg');
+}
+.South-africa{
+    background-image: url('/Assets/images/south-africa.jpg');
+}
+.USA{
+    background-image: url('/Assets/images/usa.jpg');
+}
+.Spain{
+    background-image: url('/Assets/images/spain.jpg');
+}
+
+/* Destination Page CSS end */
+
+/* CONTACT PAGE CSS STAT */
+.contact-us-bg-img{
+    background: url('/Assets/images/contact-page-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    
+}
+.contact-card{
+    min-width: 200px;
+    max-width: 240px;
+    height: auto;
+    border: 1px solid rgb(198, 196, 196);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.newyork-fifth-avenue{
+    background-image: url('/Assets/images/new-york-fifth-avenue.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    min-height: 240px;
+}
+/* CONTACT PAGE CSS end */
+
+
